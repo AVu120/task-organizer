@@ -1,0 +1,16 @@
+// Babel automatically checks this JSON file to determine how .jsx and ES6 files should be compiled into JS files.
+
+// Whenever webpack calls this file, use these libraries to transform our JSX/ES6 files into JS files.
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": {
+        // This simply affects what kinds of ES6 is transpiled. If target is an old target, then it may not automatically transpile a newer feature. We want newer features
+        // so say targets node = current. 
+        "node": "current"
+      }
+    }],
+    "@babel/preset-react"
+  ]
+}
+
