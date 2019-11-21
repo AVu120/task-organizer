@@ -3,6 +3,7 @@
 // connectDB() connects the app to MongoDB.
 
 import { MongoClient } from "mongodb";
+// process.env.MONGODB_URI is Heroku variable that will be initialize with unique port number for your app.
 const url = process.env.MONGODB_URI || `mongodb://127.0.0.1:27017/myorganizer`;
 
 let db = null;
