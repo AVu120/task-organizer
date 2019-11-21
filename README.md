@@ -4,7 +4,7 @@ An application to help organize your tasks and manage your time.
 
 Instructions for running this app:
 
-1. Download and install MongoDb from https://docs.mongodb.com/manual/installation/ then run a MongoDB instance on port 27017.
+1. Download and install MongoDb from https://docs.mongodb.com/manual/installation/ then run a MongoDB instance on port 27017 (on first run will choose this port number by default).
 2. Clone the project source code via # git clone https://github.com/AVu120/task-organizer.git
 3. cd into task-organizer folder via # cd task-organizer
 4. Install all necessary project dependancies via # npm i
@@ -13,3 +13,6 @@ Instructions for running this app:
 7. Login with the following credentials:
 username: User
 password: Password
+
+Note: Use Robo3t (https://robomongo.org/download) to see exactly what is in your running MongoDB db instance. 
+Good platform to deploy this app is Heroku and AWS.
