@@ -1,6 +1,6 @@
 # task-organizer
 
-An application to help organize your tasks and manage your time.
+A MongoDB, Express, React, Node (MERN) application to help organize your tasks and manage your time.
 
 Instructions for running this app:
 
