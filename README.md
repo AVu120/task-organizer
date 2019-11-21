@@ -8,6 +8,8 @@ Instructions for running this app:
 2. Clone the project source code via # git clone https://github.com/AVu120/task-organizer.git
 3. cd into task-organizer folder via # cd task-organizer
 4. Install all necessary project dependancies via # npm i
-5. Access application via http://localhost:8080/ and server/backend via http://localhost:7777/
-6. username: User
-   password: Password
+5. Run the application by running # npm run start-dev
+6. Access application via http://localhost:8080 and server/backend via http://localhost:7777
+7. Login with the following credentials:
+username: User
+password: Password
