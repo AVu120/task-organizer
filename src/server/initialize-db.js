@@ -8,7 +8,7 @@ async function initializeDB() {
   if (!user) {
     for (let collectionName in defaultState) {
       let collection = db.collection(collectionName);
-      await collection.insertMany(defaultState[collectionName]);
+      await collection.insert(defaultState[collectionName]);
     }
   }
 }

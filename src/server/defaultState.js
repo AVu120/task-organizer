@@ -8,13 +8,13 @@ export const defaultState = {
   users: [
     {
       id: "U1",
-      name: "Dev",
-      passwordHash: md5("TUPLES")
+      name: "User",
+      passwordHash: md5("Password")
     },
     {
       id: "U2",
-      name: "C. Eeyo",
-      passwordHash: md5("PROFITING")
+      name: "User2",
+      passwordHash: md5("Password2")
     }
   ],
   groups: [
